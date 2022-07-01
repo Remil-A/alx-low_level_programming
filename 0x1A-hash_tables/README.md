@@ -4,7 +4,7 @@
 ## Table of contents
 | Files                   | Task description                               |
 | ------------------------|----------------------------------------        |
-| [hash_tables.h]           | Header file containing the function prototypes |               |                         |                                                |
+| [hash_tables.h](./hash_tables.h)           | Header file containing the function prototypes |               |                         |                                                |
 |[0-hash_table_create.c](./0-hash_table_create.c)    | C function that creates a hash table           |
 [1-djb2.c](./1-djb2.c) | A hash function that implements djb2 algorithms
 [2-key_index.c](./2-key_index.c) | That gives the undex of a key
