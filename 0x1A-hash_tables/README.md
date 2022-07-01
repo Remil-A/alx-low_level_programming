@@ -3,6 +3,6 @@
 
 ## Table of contents
 | Files                   | Task description                               |
-| ---------                 ---------------------                          |
-| hash_tables.h           | Header file containing the function prototypes |               |               
-|`0-hash_table_create.c`  | C function that creates a hash table           |
+| ------------------------|----------------------------------------        |
+| hash_tables.h           | Header file containing the function prototypes |               |                         |                                                |
+|0-hash_table_create.c    | C function that creates a hash table           |
