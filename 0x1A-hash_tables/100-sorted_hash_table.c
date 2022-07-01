@@ -41,20 +41,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	unsigned long int index;
 	shash_node_t *new;
 
-	if (!ht || !key || !strcmp(key, "") || !value)
-		return (0);
 
-	index = key_index((unsigned char *)key, ht->size);
-
-	if (check_key_s(ht->array[index], key))
-		return (replace_value_s(&ht->array[index], key, value));
-	new = add_node_s(&ht->array[index], key, value);
-	if (!new)
-		return (0);
-
-	insert_sort(new, ht);
-	return (1);
-}
 
 /**
  * insert_sort - inserts a node in a sorted doubly
