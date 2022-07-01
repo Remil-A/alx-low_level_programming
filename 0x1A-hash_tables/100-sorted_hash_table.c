@@ -265,8 +265,3 @@ shash_node_t *add_node_s(shash_node_t **head, const char *key,
 	return (*head);
 }
 
-/**
- * free_list_s - frees a linked list
- * @head: shash_node_t list to be freed
- */
-
